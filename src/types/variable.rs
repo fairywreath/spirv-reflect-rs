@@ -62,6 +62,8 @@ bitflags! {
         const GEOMETRY = 0x0000_0008;
         const FRAGMENT = 0x0000_0010;
         const COMPUTE = 0x0000_0020;
+        const TASK_BIT_NV = 64;
+        const MESH_BIT_NV = 128;
         const RAYGEN_BIT_NV = 256;
         const ANY_HIT_BIT_NV = 512;
         const CLOSEST_HIT_BIT_NV = 1024;
